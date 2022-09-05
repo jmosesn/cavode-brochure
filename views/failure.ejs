@@ -1,0 +1,15 @@
+<%- include("partials/header"); -%>
+
+<!-- Failure Banner -->
+<div class="image-container">
+  <img class="about-image" src="images/funny-dog.jpg" alt="">
+  <div class="about-title">Uh Oh!</div>
+  <p class="about-subtitle">There was a problem signing you up. Please try again</p>
+  <form class="sign-up-try-again" action="/" method="POST">
+    <div class="form-try-again">
+      <input class="discount-first-name" type="text" name="fName" placeholder="First Name" required>
+      <input class="discount-email" type="text" name="email" placeholder="Email" required>
+      <button class="btn btn-warning">Sign Up</button>
+    </div>
+  </form>
+</div>

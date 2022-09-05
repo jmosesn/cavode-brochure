@@ -1,0 +1,111 @@
+</div>
+</div>
+
+<!-- Footer Section -->
+
+<footer class="footer-section">
+  <div class="col install">
+    <img class="logo" src="/images/cavodeLogo-small.png" alt="cavode-logo">
+    <h4>Install App - Coming Soon</h4>
+    <p>From App Store or Google Play</p>
+    <div class="row">
+      <button type="button" class="btn btn-outline-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-outline-dark btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+    </div>
+    <p>Secured Payment Gateways</p>
+    <img class="payment-image" src="/images/payment.png" alt="">
+  </div>
+
+  <div class="col">
+    <h4>Quick Links</h4>
+    <a class="footer-link" href="/">Home</a>
+    <a class="footer-link" href="/products">Products</a>
+  </div>
+
+  <div class="col">
+    <h4>About Links</h4>
+    <a class="footer-link" href="/why-cavode">Why Cavode</a>
+    <a class="footer-link" href="https://www.etsy.com/shop/Cavode?ref=seller-platform-mcnav">Our Shop</a>
+  </div>
+
+  <div class="col">
+    <h4>Contact Links</h4>
+    <a class="footer-link" href="/contact-us">Contact Us</a>
+    <div class="footer-icons">
+      <a class="social-link" href="https://facebook.com"><i class="social-icon fab fa-facebook-f"></i></a>
+      <a class="social-link" href="https://twitter.com"><i class="social-icon fab fa-twitter"></i></a>
+      <a class="social-link" href="https://instagram.com"><i class="social-icon fab fa-instagram"></i></a>
+      <a class="social-link" href="mailto:jmoses1987@yahoo.com"><i class="social-icon fas fa-envelope"></i></a>
+    </div>
+  </div>
+
+  <div class="col sign-up">
+    <h4>Sign Up for 20% Coupon</h4>
+    <form class="signup-box" action="/" method="POST">
+      <div class="form">
+        <input class="discount-first-name" type="text" name="fName" placeholder="First Name" required>
+        <input class="discount-email" type="text" name="email" placeholder="Email" required>
+        <button class="btn btn-dark">Sign Up</button>
+      </div>
+    </form>
+    <p>By signing up via email, you agree to Cavode's Terms of Service and
+      Privacy Policy. We respect your privacy.
+      Unsubscribe at any time.</p>
+  </div>
+
+  <div class="copyright-container">
+    <div class="footer-copyright-section">
+      <p class="footer-company-slogan">Cavode - Styled In Legacy</p>
+      <p class="copyright">© 2022 Cavode</p>
+    </div>
+  </div>
+
+</footer>
+
+
+<!-- JQuery & Testimonial Slick Slider Library & Function -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</script>
+
+<script type="text/javascript">
+  $('.slider').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [{
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 1100,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 775,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
+</script>
+
+</body>
+
+</html>

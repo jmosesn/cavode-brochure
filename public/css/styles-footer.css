@@ -1,0 +1,132 @@
+/* Footer Section */
+
+footer {
+  background-color: #03989e;
+  padding: 90px 90px;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  text-align: left;
+}
+
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+footer .logo {
+  margin-bottom: 20px;
+}
+
+footer h4 {
+  font-size: 14px;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 13px;
+  margin: 0;
+}
+
+.footer-section .row {
+  margin-left: 0;
+}
+
+.btn-outline-dark {
+  color: black;
+  border-color: black;
+  margin-right: 2px;
+  font-size: 1rem;
+}
+
+.payment-image {
+  width: 300px;
+}
+
+.footer-link {
+  color: black;
+}
+
+.footer-link:hover {
+  color: black;
+}
+
+.social-icon {
+  color: black;
+  margin: 0 2px 0 0;
+}
+
+.social-icon:hover {
+  color: #005659;
+}
+
+.sign-up .form {
+  display: flex;
+  width: 335px;
+}
+
+.discount-first-name {
+  height: 3.1rem;
+  padding: 5px 0 5px 10px;
+  font-size: 13px;
+  width: 100%;
+  border: 0 solid transparent;
+  border-radius: 3px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: -65px;
+}
+
+.discount-email {
+  height: 3.1rem;
+  padding: 5px 0;
+  font-size: 13px;
+  width: 100%;
+  border: 0 solid transparent;
+  border-radius: 3px;
+  outline: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.sign-up button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  outline: 0 solid transparent;
+  border: 0 solid transparent;
+}
+
+.copyright-container {
+  width: 100%;
+  text-align: center;
+}
+
+.terms-link {
+  color: black;
+  text-decoration: underline;
+}
+
+.terms-link:hover {
+  color: black;
+}
+
+.footer-company-slogan {
+  margin: 0;
+  padding-bottom: 0;
+  font-size: 0.97rem;
+}
+
+.copyright {
+  padding-top: 0;
+  font-size: 0.97rem;
+}

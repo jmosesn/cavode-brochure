@@ -1,0 +1,44 @@
+/* Failure Page*/
+
+.sign-up-try-again .form-try-again {
+  display: flex;
+  width: 335px;
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.discount-first-name {
+  height: 3.1rem;
+  padding: 5px 0 5px 10px;
+  font-size: 13px;
+  width: 100%;
+  border: 0 solid transparent;
+  border-radius: 3px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: -65px;
+}
+
+.discount-email {
+  height: 3.1rem;
+  padding: 5px 0;
+  font-size: 13px;
+  width: 100%;
+  border: 0 solid transparent;
+  border-radius: 3px;
+  outline: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.sign-up-try-again button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  outline: 0 solid transparent;
+  border: 0 solid transparent;
+}

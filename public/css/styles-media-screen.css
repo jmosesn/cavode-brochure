@@ -1,0 +1,97 @@
+/* At Media Screen */
+
+@media screen and (max-width: 1056px) {
+  .banner-container {
+    top: 58px;
+    left: 10px;
+    inline-size: 250px;
+    overflow-wrap: break-word;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .dropdown-content a {
+    color: black;
+    padding: 0px 0 5px 3px;
+    text-align: left;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  /* Products */
+  .products-section {
+    padding: 40px;
+    margin: 0;
+  }
+  .products-section .product {
+    width: 100%;
+  }
+
+  /* Why Cavode */
+  .about-section {
+    flex-direction: column;
+  }
+  .about-section img {
+    min-width: 100%;
+  }
+  .about-section .about-container {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .banner-container {
+    top: 45%;
+    left: 2%;
+    inline-size: 200px;
+    overflow-wrap: break-word;
+  }
+  .banner-title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .carousel-indicators {
+    display: none;
+  }
+  .testimonial-container {
+    padding: 0 35px;
+  }
+  footer {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  /*Why Cavode */
+  .about-title {
+    font-size: 2.5rem;
+  }
+  .about-subtitle {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .home-section {
+    margin-top: 39px;
+  }
+  .banner-container {
+    top: 45%;
+    left: 2%;
+    inline-size: 120px;
+    overflow-wrap: break-word;
+  }
+  .banner-title {
+    font-size: 15px;
+  }
+  footer .sign-up .form {
+    width: 270px;
+  }
+  footer .payment-image {
+    width: 250px;
+  }
+}
